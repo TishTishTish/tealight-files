@@ -8,7 +8,8 @@ from tealight.robot import (move,
 
 def go():
   moved = 0
-  while touch() == 'wall':
+  while touch() != 'wall':
+    turn(-2)
     move()
     moved = moved + 1
     
