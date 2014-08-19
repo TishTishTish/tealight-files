@@ -13,13 +13,13 @@ def go():
   if left_side() != 'wall':
     turn(-1)
     move()
-  if right_side() == 'wall':
+  else right_side() == 'wall':
     turn(-1)
     move()
-  if left_side == 'wall':
+  else left_side == 'wall':
     turn(1)
     move()
-  if right_side() != 'wall':
+  else right_side() != 'wall':
     turn(1)
     move()
     
