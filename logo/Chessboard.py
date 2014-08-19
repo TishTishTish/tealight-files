@@ -1,2 +1,2 @@
-print "A new file!"
+from print "A new file!"
 import move, turn
