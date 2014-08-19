@@ -5,7 +5,7 @@ def whitesquare(side):
     move(side)
     turn(90)
 
-def blacksquare(side):
+def blacksquare(size):
   
   if size > 300:
     return
