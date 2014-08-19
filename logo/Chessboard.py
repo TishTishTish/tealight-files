@@ -1,2 +1,2 @@
-from print "A new file!"
-import move, turn
+from tealight.logo import (move, 
+                           turn)
