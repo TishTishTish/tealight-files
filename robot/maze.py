@@ -8,17 +8,11 @@ from tealight.robot import (move,
 
 
 def go():
-  distance = 0
-  while touch() != 'wall':
+  if touch() != 'wall':
     move()
-    distance = distance + 1
-    else left_side() != 'wall':
-      turn(-1)
-      move()
-      distance = distance + 1
-    else right_side != 'wall':
-      turn(1)
-      move()
-      distance = distance + 1
+      if left_side() != 'wall' && right_side() == 'wall'
+        move()
+          if left_side == 'wall' && right_side() != 'wall'
+            move()
 
 go()
