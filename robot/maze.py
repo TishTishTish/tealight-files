@@ -10,7 +10,7 @@ def go():
   moved = 0
   while touch() != 'wall':
     turn(-2)
-    move()
+    move(1)
     moved = moved + 1
     
     turn (-1)
