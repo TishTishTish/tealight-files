@@ -12,15 +12,19 @@ def go():
     move()
   if left_side() != 'wall':
     turn(-1)
+    touch()
     move()
   if right_side() == 'wall':
     turn(-1)
+    touch()
     move()
   if left_side == 'wall':
     turn(1)
+    touch()
     move()
   if right_side() != 'wall':
     turn(1)
+    touch()
     move()
     
 go()
