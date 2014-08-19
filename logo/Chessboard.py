@@ -14,4 +14,4 @@ def blacksquare(side):
   turn(90)
   blacksquare(size + 0.5)
   
- blacksquare (0)
+blacksquare (0)
