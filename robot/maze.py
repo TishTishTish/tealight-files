@@ -22,4 +22,5 @@ def go():
   if right_side() != 'wall':
     turn(1)
     move()
+    
 go()
