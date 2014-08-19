@@ -2,7 +2,7 @@ from tealight.logo import move, turn
 
 def blacksquare(size):
   
-  if size > 100:
+  if size > 50:
     return
   
   move(size)
