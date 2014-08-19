@@ -11,3 +11,8 @@ def blacksquare(size):
   
 blacksquare (0)
 
+def whitesquare (size):
+  move(size)
+  turn (90)
+  whitesquare (size)
+  
