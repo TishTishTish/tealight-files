@@ -6,4 +6,4 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-if touch() == 'wall':
+if touch() == 'wall'
