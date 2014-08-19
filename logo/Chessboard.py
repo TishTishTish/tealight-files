@@ -12,6 +12,6 @@ def blacksquare(side):
   
   move(size)
   turn(90)
-  spiral(size + 0.5)
+  blacksquare(size + 0.5)
   
 spiral(0)
