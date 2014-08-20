@@ -2,18 +2,16 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from math import sin, cos, pi
 
-def star(x, y, c, size, spines):
+def star(x, y, c, size, spines, height, width):
   
   color(c)
   
   angle = 0
   
-  height = 1
-  width = height + 1
   
   for i in range(0, spines):
     x0 = x + ((size*width) * cos(angle))
-    y0 = y + (size * sin(angle))
+    y0 = y + ((size*height) * sin(angle))
     
     line(x, y, x0, y0)
     
