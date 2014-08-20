@@ -1,4 +1,4 @@
-from tealight.art import (color, line, spot, circle, box, image, text, background, gravity, friction)
+from tealight.art import (color, line, spot, circle, box, image, text, background)
 
 x = 600
 y = 400
@@ -42,7 +42,7 @@ def handle_frame():
   x = x + vx
   y = y + vy
   
-  color("blue")
+  color("random")
   
   spot(x,y,8)
   
