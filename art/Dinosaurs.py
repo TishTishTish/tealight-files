@@ -4,4 +4,4 @@ color('green')
 box(250, 300, 100, 100)
 
 color('black')
-rectangle(250, 300, 100, 100)
+box(250, 300, 100, 100)
