@@ -1,5 +1,4 @@
-from tealight.art import (color, line, spot, circle, box, image, text, background, 
-                          gravity, friction)
+from tealight.art import (color, line, spot, circle, box, image, text, background, gravity, friction)
 
 x = 600
 y = 400
