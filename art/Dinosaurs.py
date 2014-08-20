@@ -1,4 +1,4 @@
-from tealight.art.import (line, spot, circle, box, rectangle, image, text, background, color)
+from tealight.art import (color, line, spot, circle, box, image, text, background)
 
 color('green')
-box (400, 400, 800, 800)
+box (250, 300, 100, 100)
