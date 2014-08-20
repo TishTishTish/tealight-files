@@ -42,7 +42,7 @@ def handle_frame():
   x = x + vx
   y = y + vy
   
-  color("random")
+  color("green")
   
   spot(x,y,8)
   
