@@ -14,12 +14,12 @@ def handle_mousedown(x,y):
 def handle_mousemove(x,y,button):
   global lastx, lasty
   
-  color("blue")
+  color("random")
   if button == "left":
     line(lastx, lasty, x, y)
     lastx = x
     lasty = y
-  color("red")
+  color("random")
   if button == "right":
     line(lastx, lasty, x, y)
     lastx = x
