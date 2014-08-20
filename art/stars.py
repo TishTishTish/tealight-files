@@ -8,7 +8,7 @@ def star(x, y, c, size, spines):
   
   angle = 0
   
-  width = 1
+  width = 2
   height = 1
   
   for i in range(0, spines):
