@@ -6,3 +6,5 @@ def greensquare():
 
   color('green')
   box(250, 300, 100, 100)
+  
+(greensquare())*8
