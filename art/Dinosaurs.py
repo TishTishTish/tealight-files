@@ -6,4 +6,4 @@ message = 'Louise!!!'
 send(message)
 
 def handle_message(message):
-  print "Received message: " + (message)
+  print "You have one message: " + str(message)
