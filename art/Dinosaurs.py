@@ -1,7 +1,7 @@
 #Networking
-from tealight.net import connect, send
+from tealight.net import (connect, send)
 
-connect(Dinosaurs)
+connect(sketch)
 send(message, echo=False)
 
 def handle_message(message):
