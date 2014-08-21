@@ -2,7 +2,7 @@
 from tealight.net import (connect, send)
 
 connect('Dinosaurs.py')
-message = input()
+message = raw_input()
 send(message)
 
 def handle_message(message):
