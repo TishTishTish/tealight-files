@@ -10,4 +10,4 @@ def handle_message(message):
   
 def received_message(message):
   if message == "Yes" or "yes" or "Yes!":
-  print "Let's play DinoOTHELLOsaurus!"
+  print str("Let's play DinoOTHELLOsaurus!")
