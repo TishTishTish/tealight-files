@@ -6,5 +6,8 @@ def handle_mousedown(x,y):
   
 def handle_mousemove(x,y,button):
   if button == "left":
-    color("white")
+    color("cyan")
     circle(x,y,10)
+  if button == "right":
+    color("purple")
+    circle(x,z, 5)
