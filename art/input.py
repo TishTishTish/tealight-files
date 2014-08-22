@@ -10,4 +10,4 @@ def handle_mousemove(x,y,button):
     circle(x,y,10)
   if button == "right":
     color("purple")
-    circle(x,z, 5)
+    circle(x,y,5)
