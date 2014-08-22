@@ -9,5 +9,5 @@ def handle_mousemove(x,y,button):
     color("cyan")
     circle(x,y,10)
   if button == "right":
-    color("purple")
+    color("random")
     circle(x,y,5)
