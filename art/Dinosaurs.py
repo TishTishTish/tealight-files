@@ -8,6 +8,6 @@ send(message)
 def handle_message(message):
   print "You have one message: " + str(message)
   
-def received_message:
+def received_message(message):
   if handle_message == "Yes"
 print "Let's play DinoOTHELLOsaurus!"
