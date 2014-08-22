@@ -9,5 +9,5 @@ def handle_message(message):
   print "You have one message: " + str(message)
   
 def received_message(message):
-  if handle_message =! str("No"):
+  if message == "Yes" or "yes" or "Yes!":
   print "Let's play DinoOTHELLOsaurus!"
